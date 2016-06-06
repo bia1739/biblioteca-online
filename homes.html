@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+   <title>Livraria </title>
+   <link rel="stylesheet" type="text/css" href="homes.css">
+     <link href="public/css/bootstrap.min.css" rel="stylesheet">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+   <script> 
+    function mudafoto(foto){
+	   document.getElementById("pr").src =foto;
+	  }
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js">
+	
+	$('.btnTopo').click(function(){
+        $('html, body').animate({scrollTop: 0},'slow');
+    });
+	
+	   function cadcliente(){
+	    return "cadastrocliente.html";
+	   }
+	   function cadlivro(){
+	    return "cadastrolivro.html";
+	   }
+	   
+	   window.onload = function(){
+	     if(oninput="cadcliente();" == "cadastrocliente.html"){
+		    return cadastrocliente();
+		 }
+		 if(oninput="cadlivro();" == "cadastrolivro.html"){
+		    return cadastrolivro();
+		 }
+	   }
+	
+	</script>
+</head>
+ 
+<body id="casarao">
+	<div id="casa"> 
+	  <div id="sala">
+		<ul>
+			<li onmousemove="mudafoto('imagens/muitos.jpg')" onmouseout="mudafoto('imagens/colecao.jpg')"><a href="homes.html" target="_self">Home</a></li>
+			<li onmousemove="mudafoto('imagens/principal.jpg')" onmouseout="mudafoto('imagens/colecao.jpg')"><a href="homes.html" target="_self">Sobre nós</a></li>
+			<li onmousemove="mudafoto('imagens/cadastre.jpg')" onmouseout="mudafoto('imagens/colecao.jpg')"><a href="cadastrocliente.html" target="_self">Cadastro Cliente</a></li>
+			<li onmousemove="mudafoto('imagens/cadastre.jpg')" onmouseout="mudafoto('imagens/colecao.jpg')"><a href="cadastrolivro.html" target="_self">Cadastro Livro</a></li>
+			<li onmousemove="mudafoto('imagens/compra.jpg')" onmouseout="mudafoto('imagens/colecao.jpg')"><a href="compras.html" target="_self">Compras</a></li>
+			<li onmousemove="mudafoto('imagens/negocios.jpg')" onmouseout="mudafoto('imagens/colecao.jpg')"><a href="parcerias.html" target="_self">Parcerias</a></li>
+			<li onmousemove="mudafoto('imagens/contato.jpg')" onmouseout="mudafoto('imagens/colecao.jpg')"><a href="contato.html" target="_self">Contato</a></li>
+		</ul>
+	</div>
+	<div class="titulo"> 
+	    <h1> Mundo da Leitura</h1>
+		<h2> </h2>
+		<h2> </h2>
+	</div>
+	<img  id="pr" src="imagens/colecao.jpg"/>	
+	</div>
+	<div id="classificacao "nav nav-pills"> 
+	    <ul class="todos">
+        <li class="title active"><a href="#">Categorias</a></li>
+        <li><a href="#">Administração</a></li>
+		<li><a href="#">Tecnologia da Informação</a></li>
+        <li><a href="#">Artes e Fotografia</a></li>
+        <li><a href="#">Autoajuda</a></li>
+        <li><a href="#">Biografias</a></li>
+        <li><a href="#">Didáticos</a></li>
+        <li><a href="#">Direito</a></li>
+        <li><a href="#">Filosofia</a></li>
+        <li><a href="#">Gastronomia</a></li>
+        <li><a href="#">História</a></li>
+        <li><a href="#">HQs</a></li>
+        <li><a href="#">Infantil</a></li>
+        <li><a href="#">Literatura   Estrangeira</a></li>
+        <li><a href="#">Literatura Nacional</a></li>
+        <li><a href="#">Psicologia</a></li>
+        <li><a href="#">Religião</a></li>
+        <li><a href="#">Teen</a></li>
+        <li>
+        <div class="todos"><a href="#">Ver todos</a></div>
+        </li>
+    </ul>
+
+
+
+
+<ul class="nav nav-pills">
+  <li class="active">
+    <a href="#">Início</a>
+  </li>
+  <li><a href="#">...</a></li>
+  <li><a href="#">...</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+	    <a style="margin-left: 1100px" class="btnTopo" href="javascript:;"><input type="button"></a>
+	</div>
+</body>
+</html>

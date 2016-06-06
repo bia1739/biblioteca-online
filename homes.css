@@ -1,0 +1,42 @@
+@charset"utf-8";
+
+
+
+body{
+   background-color:black;
+}
+  
+body#casarao{
+            padding:0px;
+            margin:0px;
+			background: url('livros.jpg') no-repeat;
+  }
+  img#pr{
+     position: absolute;
+	 margin-left: 150px;
+  }
+  div#sala ul{
+           padding:20px;
+			margin:0px;
+			float: center;
+			width: 100%;
+			background-color:#EDEDED;
+			list-style:none;
+			font:100% Tahoma;
+  }
+  div#sala ul li{
+           display: inline;
+  }
+  div#sala ul li a{
+           background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:2px solid #EDEDED;
+			padding: 0px 10px;
+			float:left;
+  }
+  div#sala ul li a:hover{
+           background-color:;
+			color: #6D6D6D;
+			border-bottom:3px solid #EEA2AD;
+  }
